@@ -1,0 +1,124 @@
+@charset "UTF-8";
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-image: url('imgg/2247214-abstrato-brilhante-preto-e-cinza-diagonal-listras-camadas-com-luz-moderno-luxo-design-sobre-fundo-escuro-e-textura-vetor.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #fff;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #ddd 3px solid;
+}
+
+header h1 {
+    text-align: center;
+    margin: 0;
+    font-size: 25px;
+    border-radius: 15px;
+}
+
+.main-content {
+    background: #fff;
+    padding: 15px;
+    margin: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-info {
+    background: #6b6a6a;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+h1 {
+    background-color: #6ae4cf;
+    color: #fff;
+    padding: 10px;
+    border-radius: 15px;
+    width: 30%;
+    margin: 5px 0; 
+    text-align: left; 
+    font-size: 22px;
+}
+
+h3 {
+        font-family: 'Arial', sans-serif;
+        font-size: 1.5em; 
+        color: #333; 
+        font-weight: bold; 
+        margin-top: 20px; 
+        margin-bottom: 10px; 
+        border-left: 4px solid #4CAF50; 
+        padding-left: 10px; 
+        line-height: 1.2; 
+}
+
+h3::before { 
+    content: ""; 
+    width: 15px; 
+    height: 15px; 
+    background-color: #000000; 
+    border-radius: 50%; 
+    position: absolute; 
+    left: 0; 
+    top: 50%; 
+    transform: translateY(-50%); 
+}
+
+p {
+    font-family: 'Roboto', sans-serif; 
+    font-size: 1.1em; 
+    color: #444; 
+    line-height: 1.6; 
+    text-align: justify; 
+    margin-top: 15px; 
+    margin-bottom: 15px; 
+    padding: 10px; 
+    background-color: #f9f9f9; 
+    border-left: 5px solid #4CAF50; 
+    border-radius: 5px; 
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); 
+}
+
+ul {
+    list-style-type: none; 
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+li {
+    font-size: 1.2em;
+    color: #555;
+    background-color: #f4f4f4;
+    margin: 10px 0; /* Espaçamento entre os itens apenas no eixo vertical */
+    padding: 10px;
+    width: 200px; /* Largura dos itens */
+    border-radius: 8px; /* Bordas arredondadas */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra para os itens */
+    text-align: left;
+}
+
+ul {
+    padding-left: 0; 
+}
